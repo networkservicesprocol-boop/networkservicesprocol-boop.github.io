@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NSPC | Asesoría Virtual Profesional y Gestión Estratégica de Casos</title>
+<meta name="description" content="NSPC – Network Services Pro Col. Asesoría virtual profesional, gestión estratégica de casos, trámites, documentación, seguimiento y coordinación de servicios especializados.">
+<style>
+:root{--navy:#071a33;--navy2:#0b2748;--gold:#d9a629;--gold2:#f1c65b;--white:#fff;--ink:#142238;--muted:#66758a;--soft:#f4f7fa;--line:#dfe6ee}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+a{color:inherit}.container{width:min(1160px,92%);margin:auto}
+header{background:var(--navy);color:white;position:sticky;top:0;z-index:20;border-bottom:1px solid rgba(255,255,255,.12)}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-size:25px;font-weight:900;letter-spacing:.08em}.logo small{display:block;font-size:10px;letter-spacing:.12em;color:var(--gold2);font-weight:600}.navlinks{display:flex;gap:20px;align-items:center}.navlinks a{text-decoration:none;font-size:14px}.navlinks a:hover{color:var(--gold2)}
+.btn{display:inline-block;padding:13px 20px;border-radius:9px;text-decoration:none;font-weight:800;border:1px solid transparent;cursor:pointer}.btn-gold{background:var(--gold);color:#101b28}.btn-outline{border-color:#fff;color:#fff}
+.hero{background:radial-gradient(circle at 80% 25%,#163e68 0,#0a2442 36%,var(--navy) 75%);color:#fff;padding:92px 0 82px}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}.eyebrow{color:var(--gold2);font-weight:800;text-transform:uppercase;letter-spacing:.1em;font-size:13px}.hero h1{font-size:clamp(39px,5.5vw,70px);line-height:1.02;margin:14px 0 22px}.hero h1 span{color:var(--gold2)}.hero p{font-size:19px;color:#d5dfeb;max-width:720px}.hero-card{border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);padding:30px;border-radius:20px}.hero-card strong{font-size:18px}.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:30px 0}.pillar{padding:15px;border-left:3px solid var(--gold);background:rgba(255,255,255,.05)}
+section{padding:78px 0}.soft{background:var(--soft)}.dark{background:var(--navy);color:#fff}.title{text-align:center;max-width:800px;margin:0 auto 38px}.kicker{color:#b17e08;font-weight:800;text-transform:uppercase;font-size:12px;letter-spacing:.1em}.dark .kicker{color:var(--gold2)}h2{font-size:38px;line-height:1.1;margin:8px 0 12px}.lead{color:var(--muted)}.dark .lead{color:#b9c8d8}
+.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.service{background:#fff;border:1px solid var(--line);border-radius:15px;padding:23px;transition:.2s}.service:hover{transform:translateY(-3px);box-shadow:0 10px 28px rgba(7,26,51,.09)}.service .icon{font-size:27px;color:var(--gold);font-weight:900}.service h3{font-size:18px;margin:12px 0 8px}.service p{color:var(--muted);font-size:14px;margin:0}
+.method{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:38px}.step{text-align:center;position:relative}.num{margin:auto;width:48px;height:48px;border-radius:50%;border:2px solid var(--gold);display:grid;place-items:center;color:var(--gold2);font-weight:900}.step h3{font-size:16px}.step p{font-size:13px;color:#b9c8d8}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:24px}.box{padding:30px;border-radius:17px;border:1px solid var(--line);background:#fff}.box ul{padding-left:20px}.box li{margin:9px 0}
+.notice{border-left:4px solid var(--gold);background:#fff8e7;padding:18px 20px;border-radius:8px;color:#4c3b16;margin-top:25px}
+.cta{background:linear-gradient(135deg,var(--navy),var(--navy2));color:white;border-radius:22px;padding:45px}.cta h2{max-width:700px}.cta p{color:#c3d0dd;max-width:700px}
+footer{background:#041225;color:#aebdcd;padding:45px 0 20px}.footgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:35px}.footgrid h3{color:#fff;font-size:15px}.footgrid a{display:block;text-decoration:none;margin:8px 0;font-size:14px}.copy{border-top:1px solid #19304b;margin-top:30px;padding-top:18px;font-size:12px;display:flex;justify-content:space-between;gap:20px}
+@media(max-width:900px){.hero-grid,.two{grid-template-columns:1fr}.service-grid{grid-template-columns:repeat(2,1fr)}.method{grid-template-columns:1fr 1fr}.navlinks{display:none}}
+@media(max-width:560px){.service-grid{grid-template-columns:1fr}.pillars{grid-template-columns:1fr}.method{grid-template-columns:1fr}.hero{padding:65px 0}.hero h1{font-size:43px}.cta{padding:30px}.copy{display:block}}
+</style>
+</head>
+<body>
+<header>
+<div class="container nav">
+<div class="logo">NSPC<small>NETWORK SERVICES PRO COL · ASESORÍA VIRTUAL PROFESIONAL</small></div>
+<nav class="navlinks">
+<a href="#servicios">Servicios</a><a href="#metodo">Cómo trabajamos</a><a href="#alcance">Alcance</a><a href="#nspc">NSPC</a><a href="#contacto">Contacto</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="hero">
+<div class="container hero-grid">
+<div>
+<div class="eyebrow">Network Services Pro Col</div>
+<h1>Soluciones estratégicas para <span>casos, trámites y necesidades reales.</span></h1>
+<p>Asesoría virtual profesional y gestión estratégica de casos. Analizamos la situación, organizamos la información, definimos la ruta y hacemos seguimiento a las acciones acordadas.</p>
+<div class="pillars">
+<div class="pillar"><strong>Análisis</strong><br>Entender antes de actuar.</div>
+<div class="pillar"><strong>Estrategia</strong><br>Definir la mejor ruta viable.</div>
+<div class="pillar"><strong>Control</strong><br>Ejecutar y hacer seguimiento.</div>
+</div>
+<a class="btn btn-gold" href="#contacto">Solicitar orientación</a>
+</div>
+<div class="hero-card">
+<strong>¿Tienes un caso?</strong>
+<p>Cuéntanos qué ocurre y qué necesitas resolver. NSPC revisa el alcance y determina si puede gestionarlo directamente o si requiere la intervención de un profesional especializado.</p>
+<p><b>Atención 100% virtual.</b><br>Información, documentos y comunicaciones organizados para mantener trazabilidad.</p>
+</div>
+</div>
+</section>
+
+<section id="servicios" class="soft">
+<div class="container">
+<div class="title"><div class="kicker">Portafolio NSPC</div><h2>Todos nuestros servicios</h2><p class="lead">Un sistema de apoyo para analizar, organizar, gestionar y hacer seguimiento a diferentes tipos de necesidades personales y empresariales.</p></div>
+<div class="service-grid">
+<div class="service"><div class="icon">01</div><h3>Análisis y diagnóstico de casos</h3><p>Revisión de hechos, documentos, antecedentes, riesgos, necesidades y alternativas.</p></div>
+<div class="service"><div class="icon">02</div><h3>Gestión estratégica de casos</h3><p>Diseño de ruta, prioridades, acciones, control y seguimiento integral.</p></div>
+<div class="service"><div class="icon">03</div><h3>Organización documental</h3><p>Clasificación, revisión, estructuración y preparación de información y soportes.</p></div>
+<div class="service"><div class="icon">04</div><h3>Documentos y redacción</h3><p>Elaboración y estructuración de comunicaciones, solicitudes, informes y documentos según el alcance del caso.</p></div>
+<div class="service"><div class="icon">05</div><h3>PQRS y peticiones</h3><p>Preparación, presentación y seguimiento de solicitudes y reclamaciones administrativas.</p></div>
+<div class="service"><div class="icon">06</div><h3>Trámites y gestiones</h3><p>Apoyo y seguimiento de trámites ante entidades públicas y privadas.</p></div>
+<div class="service"><div class="icon">07</div><h3>Seguimiento y control</h3><p>Control de radicados, respuestas, términos, pendientes y acciones posteriores.</p></div>
+<div class="service"><div class="icon">08</div><h3>Orientación al cliente</h3><p>Explicación clara de la situación, alternativas y próximos pasos.</p></div>
+
+<div class="service"><div class="icon">09</div><h3>Asuntos legales y administrativos</h3><p>Gestión estratégica y documental de casos, con coordinación de profesionales cuando exista una actuación reservada.</p></div>
+<div class="service"><div class="icon">10</div><h3>Tránsito y comparendos</h3><p>Análisis documental, estrategia administrativa, seguimiento de comparendos, fotodetecciones y trámites de tránsito.</p></div>
+<div class="service"><div class="icon">11</div><h3>Financiero y bancario</h3><p>Apoyo en reclamaciones, PQR, obligaciones, reportes y situaciones con entidades financieras.</p></div>
+<div class="service"><div class="icon">12</div><h3>Seguros</h3><p>Organización del caso, revisión documental, reclamaciones y seguimiento ante aseguradoras.</p></div>
+<div class="service"><div class="icon">13</div><h3>Laboral</h3><p>Orientación y gestión documental de situaciones laborales, contratos, reclamaciones y trámites.</p></div>
+<div class="service"><div class="icon">14</div><h3>Inmobiliario y propiedad</h3><p>Apoyo en documentación, trámites, arrendamientos, compraventa y situaciones relacionadas con inmuebles.</p></div>
+<div class="service"><div class="icon">15</div><h3>Migratorio</h3><p>Organización y seguimiento de trámites y situaciones migratorias en Colombia y relacionadas con el exterior.</p></div>
+<div class="service"><div class="icon">16</div><h3>Contable y financiero</h3><p>Coordinación y apoyo en necesidades administrativas y contables, con especialistas cuando corresponda.</p></div>
+
+<div class="service"><div class="icon">17</div><h3>Operaciones y organización</h3><p>Apoyo para ordenar procesos, tareas, documentación y controles de operación.</p></div>
+<div class="service"><div class="icon">18</div><h3>Consultoría y orientación empresarial</h3><p>Análisis de necesidades y apoyo en decisiones, procesos y organización empresarial.</p></div>
+<div class="service"><div class="icon">19</div><h3>Tecnología e informática</h3><p>Orientación y gestión de necesidades tecnológicas, herramientas digitales, automatización e información.</p></div>
+<div class="service"><div class="icon">20</div><h3>Software y soluciones digitales</h3><p>Apoyo en estructuración y coordinación de proyectos de software y soluciones digitales.</p></div>
+<div class="service"><div class="icon">21</div><h3>Marketing y comunicación</h3><p>Apoyo en estrategia, organización de contenidos, presencia digital y necesidades comerciales.</p></div>
+<div class="service"><div class="icon">22</div><h3>Diseño</h3><p>Coordinación y apoyo en necesidades de diseño y presentación de proyectos o servicios.</p></div>
+<div class="service"><div class="icon">23</div><h3>Fotografía</h3><p>Coordinación y gestión de necesidades de fotografía según el proyecto.</p></div>
+<div class="service"><div class="icon">24</div><h3>Eventos</h3><p>Apoyo en organización, coordinación y gestión de necesidades relacionadas con eventos.</p></div>
+<div class="service"><div class="icon">25</div><h3>Mejoras del hogar</h3><p>Orientación y coordinación de necesidades relacionadas con mantenimiento, adecuaciones y mejoras.</p></div>
+<div class="service"><div class="icon">26</div><h3>Red de aliados especializados</h3><p>Coordinación con profesionales y proveedores cuando la complejidad o la competencia requerida excede el alcance directo de NSPC.</p></div>
+</div>
+</div>
+</section>
+
+<section id="metodo" class="dark">
+<div class="container">
+<div class="title"><div class="kicker">Método NSPC</div><h2>Así trabajamos</h2><p class="lead">Cada caso se gestiona con una ruta clara y trazable.</p></div>
+<div class="method">
+<div class="step"><div class="num">1</div><h3>Recepción</h3><p>Conocemos la situación y recopilamos lo necesario.</p></div>
+<div class="step"><div class="num">2</div><h3>Análisis</h3><p>Revisamos información, documentos, riesgos y opciones.</p></div>
+<div class="step"><div class="num">3</div><h3>Estrategia</h3><p>Definimos la ruta más conveniente y viable.</p></div>
+<div class="step"><div class="num">4</div><h3>Ejecución</h3><p>Realizamos las gestiones acordadas dentro del alcance.</p></div>
+<div class="step"><div class="num">5</div><h3>Seguimiento</h3><p>Controlamos respuestas, términos y próximos pasos.</p></div>
+</div>
+</div>
+</section>
+
+<section id="alcance">
+<div class="container">
+<div class="title"><div class="kicker">Alcance profesional</div><h2>NSPC gestiona; los especialistas intervienen cuando corresponde.</h2><p class="lead">El objetivo es resolver directamente lo que está dentro de nuestro alcance y coordinar apoyo especializado cuando la actuación exige una competencia profesional específica.</p></div>
+<div class="two">
+<div class="box"><h3>NSPC puede gestionar directamente</h3><ul><li>Análisis y organización del caso.</li><li>Investigación de información pública y normativa.</li><li>Preparación y estructuración documental.</li><li>Gestiones administrativas y seguimiento.</li><li>Control de términos, radicados y respuestas.</li><li>Orientación y coordinación del caso.</li></ul></div>
+<div class="box"><h3>Cuando se requiere un especialista</h3><ul><li>Representación judicial y actuaciones legalmente reservadas.</li><li>Firmas o actuaciones que exijan profesional habilitado.</li><li>Conceptos, peritajes u otras competencias técnicas especializadas.</li><li>NSPC coordina y hace seguimiento al caso, sin presentarse como firma de abogados.</li></ul></div>
+</div>
+<div class="notice"><b>Principio NSPC:</b> no prometemos resultados que no puedan sustentarse. Primero analizamos el caso, después definimos la estrategia y finalmente acordamos el alcance de la gestión.</div>
+</div>
+</section>
+
+<section id="nspc" class="soft">
+<div class="container">
+<div class="two">
+<div><div class="kicker">Sobre NSPC</div><h2>Network Services Pro Col</h2><p>NSPC es un sistema de asesoría virtual profesional y gestión estratégica de casos. Su enfoque combina análisis, organización, estrategia, ejecución y control para ayudar a personas y empresas a avanzar en situaciones que requieren gestión y seguimiento.</p><p><b>Dirección:</b> Johan Guatame — Director Fundador.</p></div>
+<div class="box"><h3>Lo que nos diferencia</h3><ul><li>Atención virtual y organizada.</li><li>Comunicación con trazabilidad.</li><li>Enfoque práctico y estratégico.</li><li>Seguimiento del caso, no solo una respuesta aislada.</li><li>Coordinación con especialistas cuando es necesario.</li><li>Servicios definidos según complejidad y alcance.</li></ul></div>
+</div>
+</div>
+</section>
+
+<section id="contacto">
+<div class="container">
+<div class="cta">
+<div class="kicker">Contacto NSPC</div>
+<h2>¿Tienes un caso o una necesidad que quieres organizar?</h2>
+<p>Escríbenos una descripción breve de la situación. Con esa información podremos determinar el alcance inicial, la ruta de trabajo y si NSPC puede ayudarte directamente.</p>
+<a class="btn btn-gold" href="mailto:info@nspc.com.co">Escribir a NSPC</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container">
+<div class="footgrid">
+<div><div class="logo">NSPC<small>NETWORK SERVICES PRO COL</small></div><p>Asesoría Virtual Profesional y Gestión Estratégica de Casos.</p></div>
+<div><h3>Enlaces</h3><a href="#servicios">Servicios</a><a href="#metodo">Cómo trabajamos</a><a href="#alcance">Alcance</a><a href="#nspc">Sobre NSPC</a></div>
+<div><h3>Contacto</h3><p>Correo: info@nspc.com.co</p><p>Atención 100% virtual.</p></div>
+</div>
+<div class="copy"><span>© 2026 NSPC – Network Services Pro Col.</span><span>Política de Privacidad · Términos y Condiciones</span></div>
+</div>
+</footer>
+</body>
+</html>
